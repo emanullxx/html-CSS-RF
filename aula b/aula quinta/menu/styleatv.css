@@ -1,0 +1,56 @@
+*{
+    /*remove as margens padrões*/
+  margin: 0;
+  padding: 0;
+  /*remove os preenchimentos padrões*/
+}
+header{
+  background-color: black;   /*define acor de fundo do cabeçalho*/
+  padding: 10px;   /*radiciona espaçamento superior e inferior de cabeçalho*/
+}
+nav ul{
+    display: flex;  /*alterar de coluna para linha*/
+    list-style: none; /*remove os marcadores*/
+    justify-content: center; /*centralizar os itens do menu*/
+}
+li{
+    margin: 15px; /*epaçamento entre os menus*/
+}
+
+a{
+    color: white;/*alterar a cor das letras do menu*/
+    text-decoration: none;/*remove o sublinhado do menu*/
+    font-weight: bold;/*coloca a fonte em negrito*/
+    padding: 10px;
+}
+a:hover{
+    color: cornflowerblue;/*coloca efeito no menu*/
+}
+section{
+    padding: 60px;
+    height: 300px;
+    margin: 10px;
+}
+  #Home{
+        background-color: antiquewhite;
+    }
+    #Sobre{
+        background-color: lightblue;
+    }
+    #Contato{
+        background-color: cornflowerblue;
+    }
+
+    #img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        margin: 30px;
+    }
+    ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    
